@@ -35,16 +35,6 @@
 			path = HelloWorldSwiftUI;
 			sourceTree = "<group>";
 		};
-		48DF51022CF9BB4F00400447 /* HelloWorldSwiftUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloWorldSwiftUITests;
-			sourceTree = "<group>";
-		};
-		48DF510C2CF9BB4F00400447 /* HelloWorldSwiftUIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloWorldSwiftUIUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				48DF50F12CF9BB4D00400447 /* HelloWorldSwiftUI */,
-				48DF51022CF9BB4F00400447 /* HelloWorldSwiftUITests */,
-				48DF510C2CF9BB4F00400447 /* HelloWorldSwiftUIUITests */,
 				48DF50F02CF9BB4D00400447 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				48DF51012CF9BB4F00400447 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				48DF51022CF9BB4F00400447 /* HelloWorldSwiftUITests */,
-			);
 			name = HelloWorldSwiftUITests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				48DF510B2CF9BB4F00400447 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				48DF510C2CF9BB4F00400447 /* HelloWorldSwiftUIUITests */,
 			);
 			name = HelloWorldSwiftUIUITests;
 			packageProductDependencies = (
